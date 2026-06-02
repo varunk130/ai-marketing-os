@@ -1,0 +1,4 @@
+# Branch protection enforces that every PR must be approved by the
+# code owner before it can be merged into main.
+
+* @varunk130
