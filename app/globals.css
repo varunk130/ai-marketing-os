@@ -1,0 +1,176 @@
+@import "tailwindcss";
+
+/* ============================================================
+   AI Marketing Crew — Design Tokens
+   AI-native dark. Vercel / Linear / Anthropic inspired.
+   ============================================================ */
+
+@theme {
+  /* Surfaces — much brighter for clear visual hierarchy */
+  --color-background: #08080c;
+  --color-surface: #18181f;
+  --color-surface-elevated: #22222b;
+  --color-surface-hover: #2b2b35;
+  --color-surface-bright: #34343f;
+
+  /* Borders — visibly distinct from surfaces */
+  --color-border: #2f2f38;
+  --color-border-strong: #42424d;
+  --color-border-accent: #5a5a66;
+
+  /* Foregrounds — high contrast */
+  --color-foreground: #fafafa;
+  --color-muted: #dcdce4;
+  --color-subtle: #b8b8c4;
+  --color-faint: #8e8e9a;
+
+  /* Brand colors — vibrant */
+  --color-violet: #a78bfa;
+  --color-violet-deep: #7c3aed;
+  --color-cyan: #22d3ee;
+  --color-cyan-deep: #06b6d4;
+  --color-pink: #f472b6;
+  --color-amber: #fbbf24;
+  --color-emerald: #34d399;
+  --color-indigo: #818cf8;
+  --color-rose: #fb7185;
+
+  /* Semantic */
+  --color-success: #34d399;
+  --color-warning: #fbbf24;
+  --color-danger: #f87171;
+  --color-info: #60a5fa;
+
+  /* Typography */
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "SF Mono", monospace;
+
+  /* Radii */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
+}
+
+/* ============================================================
+   Base reset & body
+   ============================================================ */
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Selection */
+::selection {
+  background: color-mix(in oklch, var(--color-violet) 35%, transparent);
+  color: var(--color-foreground);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 9999px;
+  border: 2px solid var(--color-background);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-border-accent);
+}
+
+/* Focus ring */
+*:focus-visible {
+  outline: 2px solid var(--color-violet);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* ============================================================
+   Utility helpers
+   ============================================================ */
+
+@utility text-gradient {
+  background: linear-gradient(135deg, var(--color-violet) 0%, var(--color-cyan) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+@utility bg-gradient-brand {
+  background: linear-gradient(135deg, var(--color-violet) 0%, var(--color-cyan) 100%);
+}
+
+@utility bg-grid {
+  background-image:
+    linear-gradient(to right, color-mix(in oklch, var(--color-border) 60%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklch, var(--color-border) 60%, transparent) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+@utility bg-dot {
+  background-image: radial-gradient(circle, var(--color-border-strong) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@utility ring-brand {
+  box-shadow: 0 0 0 1px color-mix(in oklch, var(--color-violet) 40%, transparent),
+              0 8px 32px -8px color-mix(in oklch, var(--color-violet) 25%, transparent);
+}
+
+/* ============================================================
+   Animations
+   ============================================================ */
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+
+@keyframes drift {
+  0%   { transform: translate(0, 0) scale(1); }
+  33%  { transform: translate(40px, -30px) scale(1.05); }
+  66%  { transform: translate(-25px, 25px) scale(0.97); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@utility animate-drift {
+  animation: drift 18s ease-in-out infinite;
+}
+
+@utility animate-pulse-soft {
+  animation: pulse-soft 3s ease-in-out infinite;
+}
+
+@utility animate-shimmer {
+  background-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    color-mix(in oklch, var(--color-foreground) 8%, transparent) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2.5s linear infinite;
+}
