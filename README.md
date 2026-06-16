@@ -77,7 +77,7 @@ The upstream methodology library lives at [`ai-marketing-claude-skills`](https:/
 | --- | --- |
 | `/` | Overview landing: hero, problem, solution, extent, why-now, how-it-works, skills, missions, CTA |
 | `/how-it-works` | Architecture deep-dive: layer-by-layer walkthrough with code panels and contrast tables |
-| `/skills` | The 12 skills catalogued by category, each linking to its upstream README |
+| `/skills` | The 12 skills cataloged by category, each linking to its upstream README |
 | `/missions` | Mission scenarios (Launch, Rescue a Pipeline, A Week at the Org) |
 | `/missions/launch` | Fully interactive Launch mission with live agent graph + console + artifact feed |
 | `/about` | Why this exists + related portfolio |
