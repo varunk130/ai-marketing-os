@@ -166,7 +166,7 @@ If you spot a bug or have a suggestion, open an issue — happy to chat.
 
 This site is part of a broader portfolio of AI-builder repositories:
 
-- [`ai-marketing-claude-skills`](https://github.com/varunk130/ai-marketing-claude-skills) — the 12-skill source library this site visualises
+- [`ai-marketing-claude-skills`](https://github.com/varunk130/ai-marketing-claude-skills) — the 12-skill source library this site visualizes
 - [`ai-pm-agents-suite`](https://github.com/varunk130/ai-pm-agents-suite) — a 6-agent PM pipeline + 3 standalone PM agents
 - [`ai-gtm-skill-library`](https://github.com/varunk130/ai-gtm-skill-library) — 31 opinionated GTM skills
 - [`ai-ux-skill-library`](https://github.com/varunk130/ai-ux-skill-library) — 12 frameworks for UX of AI products
