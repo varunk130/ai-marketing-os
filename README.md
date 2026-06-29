@@ -67,7 +67,7 @@ Grouped by category:
 
 - **Growth**: growth-engine, conversion-ops, creative-ops, content-ops
 - **Sales**: outbound-engine, sales-pipeline, sales-playbook, revenue-intelligence
-- **Ops**: seo-ops, finance-ops, brand-ops, mar-ops
+- **Ops**: seo-ops, finance-ops, podcast-ops, team-ops
 
 The upstream methodology library lives at [`ai-marketing-claude-skills`](https://github.com/varunk130/ai-marketing-claude-skills).
 
