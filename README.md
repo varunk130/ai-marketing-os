@@ -32,7 +32,7 @@ It pairs a narrative landing experience with a fully interactive **Launch missio
 Modern marketing teams face four compounding problems:
 
 1. **Expertise is locked in specialists** — a senior CRO consultant is $5K/audit; a real growth scientist is rare.
-2. **Tooling sprawl** — Optimizely + Outreach + Clay + HubSpot + ZoomInfo + Ahrefs stacks to $20-50K/month.
+2. **Tooling sprawl** — Optimizely + Outreach + Clay + HubSpot + ZoomInfo + Ahrefs stacks to $20–50K/month.
 3. **Generic AI doesn't solve it** — ChatGPT can write copy, but it won't run your sample-size calculation or score your pipeline with a real model.
 4. **Prompts die in chat windows** — experiments are private threads with no compounding system.
 
