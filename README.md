@@ -176,3 +176,7 @@ This site is part of a broader portfolio of AI-builder repositories:
 ## Author
 
 Built by **[Varun Kulkarni](https://github.com/varunk130)** — AI Builder at Microsoft, Forbes Tech Council member, and author of a portfolio of AI agent and skill libraries spanning product, GTM, UX, and decision-making.
+
+## License
+
+Released under the [MIT License](LICENSE).
