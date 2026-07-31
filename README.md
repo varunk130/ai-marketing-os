@@ -172,6 +172,9 @@ This site is part of a broader portfolio of AI-builder repositories:
 - [`ai-ux-skill-library`](https://github.com/varunk130/ai-ux-skill-library) — 12 frameworks for UX of AI products
 - [`ai-workflow-playbooks`](https://github.com/varunk130/ai-workflow-playbooks) — 21 playbooks + 10 skills + 4 guardians
 - [`claude-code-skills`](https://github.com/varunk130/claude-code-skills) — 29 production-grade skills
+- [`ai-legal-agents-skills-os`](https://github.com/varunk130/ai-legal-agents-skills-os) — one master legal agent, 9 specialist skills
+- [`ai-growth-os`](https://github.com/varunk130/ai-growth-os) — a compounding growth loop: find → design → ship → learn
+- [`ai-revops`](https://github.com/varunk130/ai-revops) — 9 agents take a company into a new market end to end
 
 ## Author
 
