@@ -1,0 +1,44 @@
+# Security Policy
+
+This repository is a Next.js demo site that runs entirely on synthetic data - no live customer records, no production credentials. If you find a security issue in the app code, the agent/skill definitions, or any guidance that could lead a user to leak credentials or PII, please report it privately rather than opening a public issue.
+
+## Reporting a vulnerability
+
+Use one of these private channels:
+
+1. **GitHub private vulnerability reporting** - open a private advisory on this repository's Security tab. This is the preferred channel.
+2. **Direct message** - reach the maintainer through the contact information on their GitHub profile.
+
+When reporting, please include:
+
+- A clear description of the issue and its potential impact
+- Steps to reproduce (a minimal proof-of-concept if possible)
+- The affected file, commit SHA, route, or agent name
+- Any suggested remediation
+- Whether you would like public credit when the fix is released
+
+## What to expect
+
+- **Acknowledgment** within 7 days
+- A **triage decision** (accepted, needs more info, out of scope) within 14 days
+- A **coordinated disclosure timeline** once the issue is confirmed
+- **Public credit** in the release notes, with your consent
+
+## Scope
+
+In scope:
+
+- The Next.js application code under `app/`, `components/`, and `lib/`
+- Agent and skill definitions that could cause credential leakage, PII exposure, or unsafe automation if followed verbatim
+- Sample configuration or fixtures in `data/` that use real (rather than placeholder) secrets
+- Dependency vulnerabilities that are actually reachable from the shipped site
+
+Out of scope:
+
+- Findings that depend on the user supplying genuine production credentials or live customer data to this demo
+- Issues in third-party services referenced in the agent examples - please report those to the relevant vendor
+- Stylistic or wording concerns - open a regular issue or pull request for those
+
+## Supported versions
+
+Only the latest commit on `main` is actively supported. Older snapshots are not patched. If you are running an older fork, please pull the latest before reporting.
