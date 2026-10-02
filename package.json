@@ -1,8 +1,14 @@
 {
   "name": "ai-marketing-os",
   "version": "0.1.0",
+  "description": "AI Marketing OS - an agentic marketing operating system: 9 agents and 12 reusable skills that plan, produce, and measure marketing work. Runs fully local, no API keys.",
   "private": true,
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varunk130/ai-marketing-os.git"
+  },
+  "homepage": "https://github.com/varunk130/ai-marketing-os#readme",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
