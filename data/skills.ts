@@ -171,9 +171,3 @@ export const categoryLabels: Record<Skill["category"], string> = {
   sales: "Sales & Revenue",
   ops: "Operations",
 };
-
-export const categoryAccents: Record<Skill["category"], string> = {
-  growth: "from-cyan/30 to-cyan/10 border-cyan/30",
-  sales: "from-pink/30 to-pink/10 border-pink/30",
-  ops: "from-violet/30 to-violet/10 border-violet/30",
-};
