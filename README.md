@@ -65,9 +65,9 @@ The AI Marketing OS reframes this as a 4-layer architecture: **skills → agents
 
 Grouped by category:
 
-- **Growth**: growth-engine, conversion-ops, creative-ops, content-ops
+- **Growth**: growth-engine, conversion-ops, creative-ops, content-ops, seo-ops, podcast-ops
 - **Sales**: outbound-engine, sales-pipeline, sales-playbook, revenue-intelligence
-- **Ops**: seo-ops, finance-ops, podcast-ops, team-ops
+- **Ops**: finance-ops, team-ops
 
 The upstream methodology library lives at [`ai-marketing-claude-skills`](https://github.com/varunk130/ai-marketing-claude-skills).
 
