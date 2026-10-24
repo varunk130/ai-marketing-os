@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#"><img alt="Next.js" src="https://img.shields.io/badge/Next.js-16.2-000?logo=nextdotjs&logoColor=fff"></a>
+  <a href="#"><img alt="Next.js" src="https://img.shields.io/badge/Next.js-16.3-000?logo=nextdotjs&logoColor=fff"></a>
   <a href="#"><img alt="React" src="https://img.shields.io/badge/React-19-149eca?logo=react&logoColor=fff"></a>
   <a href="#"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=fff"></a>
   <a href="#"><img alt="Tailwind" src="https://img.shields.io/badge/Tailwind-v4-38bdf8?logo=tailwindcss&logoColor=fff"></a>
