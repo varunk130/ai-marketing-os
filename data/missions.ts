@@ -26,7 +26,7 @@ export const missionSummaries: MissionSummary[] = [
     title: "Rescue a Stuck Pipeline",
     premise:
       "Win rate dropped from 27% to 14%. The crew runs win/loss analysis, generates battlecards, and rebuilds the sequence in one week.",
-    badge: "1 week sprint",
+    badge: "1-week sprint",
     status: "coming-soon",
     agentIds: ["oracle", "anvil", "forge", "lens"],
     outcome: "Win rate recovered from 14% → 27%",
