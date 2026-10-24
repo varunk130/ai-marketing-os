@@ -29,7 +29,7 @@ export const missionSummaries: MissionSummary[] = [
     badge: "1-week sprint",
     status: "coming-soon",
     agentIds: ["oracle", "anvil", "forge", "lens"],
-    outcome: "Win rate recovered from 14% → 27%",
+    outcome: "Win rate recovered from 14% to 27%",
     durationSeconds: 60,
   },
   {
