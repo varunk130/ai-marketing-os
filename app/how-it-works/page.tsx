@@ -16,7 +16,7 @@ import { agents } from "@/data/agents";
 import { skills } from "@/data/skills";
 
 export const metadata = {
-  title: "How it works · The AI Marketing OS",
+  title: "How it works",
   description:
     "Architecture deep-dive: how 12 skills, 9 agents, an orchestration layer, and shippable artifacts compose into an operating system for marketing.",
 };
