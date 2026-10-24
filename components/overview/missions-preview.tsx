@@ -19,7 +19,7 @@ export function MissionsPreview() {
               Watch the OS run real missions
             </h2>
             <p className="mx-auto mt-5 max-w-2xl text-balance text-base text-muted sm:text-lg">
-              Each mission is a cinematic 60 to 90 second walkthrough of the AI
+              Each mission is a cinematic 60- to 90-second walkthrough of the AI
               Marketing OS operating end-to-end on a real marketing scenario.
             </p>
           </div>

@@ -26,7 +26,7 @@ export default function MissionsPage() {
               Pick a scenario. <span className="text-gradient">Press play.</span>
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-balance text-lg text-muted">
-              Each mission is a 60–90 second cinematic walkthrough. Watch the
+              Each mission is a 60–90-second cinematic walkthrough. Watch the
               crew operate end-to-end - agents pulse, consoles stream, artifacts
               drop in real time.
             </p>
