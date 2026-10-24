@@ -69,7 +69,7 @@ export const launchTimeline: MissionScript = {
         name: "keyword-map.csv",
         type: "csv",
         agentId: "atlas",
-        preview: `keyword,volume,kd,intent,cluster\nproduct analytics,8,100,42,info,core\nproduct analytics tool,3,600,38,commercial,core\nmixpanel alternative,4,200,29,commercial,competitor\namplitude vs mixpanel,2,900,35,commercial,competitor\n... 143 more rows`,
+        preview: `keyword,volume,kd,intent,cluster\nproduct analytics,8100,42,info,core\nproduct analytics tool,3600,38,commercial,core\nmixpanel alternative,4200,29,commercial,competitor\namplitude vs mixpanel,2900,35,commercial,competitor\n... 143 more rows`,
         expanded: `keyword,monthly_volume,keyword_difficulty,intent,cluster,priority\nproduct analytics,8100,42,info,core,P0\nproduct analytics tool,3600,38,commercial,core,P0\nmixpanel alternative,4200,29,commercial,competitor,P0\namplitude vs mixpanel,2900,35,commercial,competitor,P1\nproduct analytics software,1900,44,commercial,core,P1\nbest product analytics tools,1600,51,commercial,roundup,P1\nproduct analytics for saas,880,28,commercial,vertical,P1\nself-serve product analytics,720,22,commercial,positioning,P2\nproduct led growth analytics,590,31,commercial,positioning,P1\nfeature adoption analytics,480,19,info,how-to,P2\n... 137 more rows · 12 topical clusters · GEO/AEO coverage: 34%`,
       },
     },
