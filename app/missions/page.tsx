@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 export const metadata = {
   title: "Missions",
   description:
-    "Three scenarios that showcase the AI Marketing Crew in action - Launch a Product, Rescue a Pipeline, or A Week at the Org.",
+    "Three scenarios that showcase the AI Marketing Crew in action - Launch a Product, Rescue a Stuck Pipeline, or A Week at the AI Marketing Org.",
 };
 
 export default function MissionsPage() {
