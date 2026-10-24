@@ -105,7 +105,7 @@ export function AgentConsole() {
           </>
         ) : (
           <div className="flex h-full items-center justify-center text-faint">
-            Press play to begin mission.
+            Press play to begin the mission.
           </div>
         )}
       </div>
