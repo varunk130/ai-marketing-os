@@ -150,7 +150,7 @@ The site uses a custom dark-first design system defined in `app/globals.css`:
 
 - A 5-step **surface ladder** for clear visual hierarchy
 - A 4-step **foreground ladder** for accessible text contrast
-- A vibrant **brand palette**: violet, cyan, pink, amber, emerald, indigo, rose, fuchsia
+- A vibrant **brand palette**: violet, cyan, pink, amber, emerald, indigo, rose
 - Animation utilities for drift, soft pulse, and shimmer
 
 ## Contributing
