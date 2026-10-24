@@ -25,7 +25,7 @@ export function CROScorecardWidget() {
     <div className="space-y-6">
       <div>
         <div className="text-[10px] font-mono uppercase tracking-widest text-amber">
-          CRO Audit · Conversion-Ops
+          CRO Audit · Conversion
         </div>
         <h3 className="mt-1 text-2xl font-semibold text-foreground">
           Cialdini 6-principle scorecard

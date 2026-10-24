@@ -35,7 +35,7 @@ export function LeadScoringWidget() {
     <div className="space-y-6">
       <div>
         <div className="text-[10px] font-mono uppercase tracking-widest text-cyan">
-          Scored Leads · Sales-Pipeline
+          Scored Leads · Sales Pipeline
         </div>
         <h3 className="mt-1 text-2xl font-semibold text-foreground">
           {summary.totalSqls} SQLs from {summary.totalEnriched} enriched leads
