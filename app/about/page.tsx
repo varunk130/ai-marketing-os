@@ -36,7 +36,7 @@ const relatedRepos = [
   },
   {
     name: "claude-code-skills",
-    description: "29 production-grade skills for finance, product, strategy, and game theory.",
+    description: "42 production-grade skills across AI UX, AI marketing, finance, product, strategy, and game theory.",
     href: "https://github.com/varunk130/claude-code-skills",
   },
 ];
